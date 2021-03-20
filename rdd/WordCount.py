@@ -1,7 +1,7 @@
 from pyspark import SparkContext, SparkConf
 
 if __name__ == "__main__":
-    conf = SparkConf().setAppName("word count").setMaster("local[3]")
+    conf = SparkConf().setAppName("word count").setMaster("local[2]")
     sc = SparkContext(conf = conf)
     
     lines = sc.textFile("in/word_count.text")
