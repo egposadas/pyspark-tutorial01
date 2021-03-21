@@ -34,9 +34,9 @@ root/
  |   requirements.txt
 ```
 
-The main Python module is the ETL job, `jobs/etl.py`,  which is going to be send it to Spark. 
-The source events of the recipes stored as json files, are located on, `input/*.json`. 
-The persist dataset as CSV that only containts the recipes that have `beef` as one of the ingredients is located on, `output/beef_recipes.csv`. This file contains 2 columns: `difficulty,avg_total_cooking_time`.
+The main Python module is the ETL job, `jobs/etl.py`,  which is going to be send it to Spark.  
+The source events of the recipes stored as json files, are located on, `input/*.json`.  
+The persist dataset as CSV that only containts the recipes that have `beef` as one of the ingredients is located on, `output/beef_recipes.csv`. This file contains 2 columns: `difficulty,avg_total_cooking_time`.  
 
 ```bash
     total_cook_time = cookTime + prepTime
