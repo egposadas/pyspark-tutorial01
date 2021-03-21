@@ -1,17 +1,17 @@
 # Tech Challenge
 This document objetive is to provide a detail explanation on the solution for the HellowFresh tech challenge explain on `README.md` file. The deliverables for the solution are:
 
-- [ ] A deployable Spark applicationm written in Python that can be submitted to a Spark cluster (or locally) using the 'spark-submit' command.
-- Proper documentation on the solution, that you can be find across the project and mostly within this file, `ETL_README.md`.
-- CSV outpout dataset `outpout/beef_recipes.csv`.
+- [X] A deployable Spark applicationm written in Python that can be submitted to a Spark cluster (or locally) using the 'spark-submit' command.
+- [X] Proper documentation on the solution, that you can be find across the project and mostly within this file, `ETL_README.md`.
+- [X] CSV outpout dataset `outpout/beef_recipes.csv`.
 
-- Method for logging and alerting using log4j.
-- Unit test for the etl components.
-- Data Quality validations.
-- Theoretical implementation scenarios:
-    - CI/CD implementation
-    - Performance tunning
-    - Scheduled pipelines
+- [X] Method for logging and alerting using log4j.
+- [X] Unit test for the etl components.
+- [X] Data Quality validations.
+- [X] Theoretical implementation scenarios:
+    - [X] CI/CD implementation
+    - [X] Performance tunning
+    - [X] Scheduled pipelines
 
 ## Project Structure
 ```bash
